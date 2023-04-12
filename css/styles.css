@@ -1,0 +1,70 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 91, 183); /*font color*/
+    background-color: rgb(255, 0, 128);
+    background-image: url("https://previews.123rf.com/images/edunp/edunp2106/edunp210600061/169995296-90s-and-80s-style-seamless-pattern-background-wallpaper.jpg");
+    background-repeat: repeat;
+}
+img{
+    display: block;
+    border: 20px dashed orange;
+    padding: 12px;
+    margin: auto;
+    
+}
+a:visited{
+    color: rgb(0, 255, 0);
+}
+a{
+    color: rgb(255, 0, 0);
+}
+li{
+    font-style: italic;
+}
+li:hover{
+    font-size: 400%;
+    text-decoration: underline;
+    background-color: rgb(255, 251, 251);
+}
+.WA{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    color: olive;
+    background-color: rgb(145, 241, 0);
+    border: 29px dotted rgb(59, 44, 24);
+}
+.WA:hover{
+    text-align: center;
+    color: aquamarine;
+    font-size: 700%;
+}
+.common{
+    border:7px solid orange;
+    position: absolute;
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: blue;
+}
+.footer{
+    position: fixed;
+    background-color: lawngreen;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50px;
+}
+.gallery img{
+    display: inline;
+    width: 330px;
+}
